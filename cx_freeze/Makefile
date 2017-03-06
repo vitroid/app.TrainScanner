@@ -1,7 +1,9 @@
 prepare:
 	pip3 install TrainScanner           #installed to system area.
-	pip3 install py2app
+	pip3 install cx_freeze
 #This only works when the codes are obtained manually.
+setup:
+	cxfreeze-quickstart
 develop: clean
 	/usr/local/bin/python3 trainscanner_gui-setup.py py2app -A
 deploy: clean
