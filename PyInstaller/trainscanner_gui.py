@@ -1,0 +1,1 @@
+../py2app/trainscanner_gui.py
