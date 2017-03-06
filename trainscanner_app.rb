@@ -4,8 +4,8 @@ require "formula"
 
 class TrainscannerApp < Formula 
   homepage "https://github.com/vitroid/TrainScanner"
-  url "https://github.com/vitroid/app.TrainScanner/archive/v0.1.0.zip" 
-  sha256 "a75e4f71b5ebf26553c53c5bbe5c2883ebd5e9d05b93d54b09aa8cbb5fea24c2" 
+  url "https://github.com/vitroid/app.TrainScanner/archive/v0.1.1.zip" 
+  sha256 "9328482b4c9de2deb878aed9712a7a14688d4f9affad48d4fbef9dc68110cfb1" 
 
   #Assume all dependencies are resolved in installing the TrainScanner.
 
